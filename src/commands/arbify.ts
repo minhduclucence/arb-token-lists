@@ -6,10 +6,6 @@ import { arbifyL1List } from '../lib/token_list_gen';
 
 export const command = Action.Arbify;
 
-export const describe = 'Arbify';
-
-export const builder = () => {};
-
 export const handler = async (argvs: Args) => {
   const includeOldDataFields: boolean = !!argvs.includeOldDataFields;
 
